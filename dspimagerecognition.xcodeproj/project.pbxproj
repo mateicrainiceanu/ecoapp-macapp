@@ -11,6 +11,12 @@
 		A9148E2B2B56B108009E8266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9148E2A2B56B108009E8266 /* ContentView.swift */; };
 		A9148E2D2B56B109009E8266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9148E2C2B56B109009E8266 /* Assets.xcassets */; };
 		A9148E302B56B10A009E8266 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9148E2F2B56B10A009E8266 /* Preview Assets.xcassets */; };
+		A9148E382B56B30E009E8266 /* DozaModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9148E372B56B30E009E8266 /* DozaModel.mlmodel */; };
+		A9148E3A2B56B33F009E8266 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9148E392B56B33F009E8266 /* Handler.swift */; };
+		A9148E3C2B570147009E8266 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9148E3B2B570147009E8266 /* Network.swift */; };
+		A9148E3E2B5707E5009E8266 /* Recognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9148E3D2B5707E5009E8266 /* Recognition.swift */; };
+		A9148E402B570800009E8266 /* ObjectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9148E3F2B570800009E8266 /* ObjectHandler.swift */; };
+		A9148E422B570F55009E8266 /* RecogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9148E412B570F55009E8266 /* RecogResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		A9148E2C2B56B109009E8266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9148E2F2B56B10A009E8266 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9148E312B56B10A009E8266 /* dspimagerecognition.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dspimagerecognition.entitlements; sourceTree = "<group>"; };
+		A9148E372B56B30E009E8266 /* DozaModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DozaModel.mlmodel; sourceTree = "<group>"; };
+		A9148E392B56B33F009E8266 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		A9148E3B2B570147009E8266 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A9148E3D2B5707E5009E8266 /* Recognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recognition.swift; sourceTree = "<group>"; };
+		A9148E3F2B570800009E8266 /* ObjectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectHandler.swift; sourceTree = "<group>"; };
+		A9148E412B570F55009E8266 /* RecogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				A9148E282B56B108009E8266 /* dspimagerecognitionApp.swift */,
+				A9148E392B56B33F009E8266 /* Handler.swift */,
+				A9148E3D2B5707E5009E8266 /* Recognition.swift */,
 				A9148E2A2B56B108009E8266 /* ContentView.swift */,
+				A9148E412B570F55009E8266 /* RecogResponse.swift */,
+				A9148E3F2B570800009E8266 /* ObjectHandler.swift */,
+				A9148E3B2B570147009E8266 /* Network.swift */,
+				A9148E372B56B30E009E8266 /* DozaModel.mlmodel */,
 				A9148E2C2B56B109009E8266 /* Assets.xcassets */,
 				A9148E312B56B10A009E8266 /* dspimagerecognition.entitlements */,
 				A9148E2E2B56B10A009E8266 /* Preview Content */,
@@ -139,7 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9148E3C2B570147009E8266 /* Network.swift in Sources */,
+				A9148E3E2B5707E5009E8266 /* Recognition.swift in Sources */,
+				A9148E382B56B30E009E8266 /* DozaModel.mlmodel in Sources */,
 				A9148E2B2B56B108009E8266 /* ContentView.swift in Sources */,
+				A9148E402B570800009E8266 /* ObjectHandler.swift in Sources */,
+				A9148E422B570F55009E8266 /* RecogResponse.swift in Sources */,
+				A9148E3A2B56B33F009E8266 /* Handler.swift in Sources */,
 				A9148E292B56B108009E8266 /* dspimagerecognitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
